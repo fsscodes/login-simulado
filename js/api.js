@@ -1,9 +1,9 @@
-const URL = "http://localhost:4000/cadastros";
+const URL_BASE = "https://login-simulado-1.onrender.com";
 
 const api = {
   async salvarCadastro(cadastro) {
     try {
-      const response = await fetch(URL, {
+      const response = await fetch(`${URL_BASE}/cadastros`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -19,7 +19,7 @@ const api = {
 
   async cadastroExistente() {
     try {
-      const response = await fetch(URL);
+      const response = await fetch(`${URL_BASE}/cadastros`);
       return await response.json();
     } catch (error) {
       throw error;
