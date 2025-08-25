@@ -1,0 +1,124 @@
+{
+  "cadastros": [
+    {
+      "id": 1,
+      "primeiro_nome": "Lucas",
+      "ultimo_nome": "Andrade",
+      "data_nascimento": "12/05/1990",
+      "email": "lucas.andrade@gmail.com",
+      "senha": "senha123"
+    },
+    {
+      "id": 2,
+      "primeiro_nome": "Mariana",
+      "ultimo_nome": "Santos",
+      "data_nascimento": "23/11/1987",
+      "email": "mariana_santos@hotmail.com",
+      "senha": "abc12345"
+    },
+    {
+      "id": 3,
+      "primeiro_nome": "Rafael",
+      "ultimo_nome": "Lima",
+      "data_nascimento": "04/07/1995",
+      "email": "rafael.lima@yahoo.com",
+      "senha": "minhasenha"
+    },
+    {
+      "id": 4,
+      "primeiro_nome": "Ana",
+      "ultimo_nome": "Beatriz",
+      "data_nascimento": "18/01/1992",
+      "email": "ana.beatriz@gmail.com",
+      "senha": "123456"
+    },
+    {
+      "id": 5,
+      "primeiro_nome": "Pedro",
+      "ultimo_nome": "Henrique",
+      "data_nascimento": "09/09/1985",
+      "email": "pedro_henrique@hotmail.com",
+      "senha": "senha456"
+    },
+    {
+      "id": 6,
+      "primeiro_nome": "Juliana",
+      "ultimo_nome": "Costa",
+      "data_nascimento": "27/03/1993",
+      "email": "juliana.costa@yahoo.com",
+      "senha": "meuacesso"
+    },
+    {
+      "id": 7,
+      "primeiro_nome": "Felipe",
+      "ultimo_nome": "Martins",
+      "data_nascimento": "05/08/1989",
+      "email": "felipe.martins@gmail.com",
+      "senha": "pass789"
+    },
+    {
+      "id": 8,
+      "primeiro_nome": "Camila",
+      "ultimo_nome": "Rocha",
+      "data_nascimento": "14/06/1996",
+      "email": "camila_rocha@hotmail.com",
+      "senha": "camilasenha"
+    },
+    {
+      "id": 9,
+      "primeiro_nome": "Gustavo",
+      "ultimo_nome": "Pereira",
+      "data_nascimento": "02/02/1991",
+      "email": "gustavo.pereira@yahoo.com",
+      "senha": "gu123456"
+    },
+    {
+      "id": 10,
+      "primeiro_nome": "Larissa",
+      "ultimo_nome": "Fernandes",
+      "data_nascimento": "29/10/1988",
+      "email": "larissa.fernandes@gmail.com",
+      "senha": "larissa789"
+    },
+    {
+      "id": 11,
+      "primeiro_nome": "Thiago",
+      "ultimo_nome": "Oliveira",
+      "data_nascimento": "11/04/1994",
+      "email": "thiago_oliveira@hotmail.com",
+      "senha": "senhaThiago"
+    },
+    {
+      "id": 12,
+      "primeiro_nome": "Carolina",
+      "ultimo_nome": "Almeida",
+      "data_nascimento": "07/12/1986",
+      "email": "carolina.almeida@yahoo.com",
+      "senha": "carol123"
+    },
+    {
+      "id": 13,
+      "primeiro_nome": "André",
+      "ultimo_nome": "Souza",
+      "data_nascimento": "16/05/1997",
+      "email": "andre_souza@gmail.com",
+      "senha": "andresenha"
+    },
+    {
+      "id": 14,
+      "primeiro_nome": "Paula",
+      "ultimo_nome": "Ribeiro",
+      "data_nascimento": "21/09/1990",
+      "email": "paula.ribeiro@hotmail.com",
+      "senha": "paula456"
+    },
+    {
+      "id": 15,
+      "primeiro_nome": "Bruno",
+      "ultimo_nome": "Carvalho",
+      "data_nascimento": "30/08/1984",
+      "email": "bruno.carvalho@yahoo.com",
+      "senha": "bruno2025"
+    }
+  ]
+}

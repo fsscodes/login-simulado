@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/cadastro.css" />
+    <title>Nova senha</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2 class="formulario-titulo">Esqueceu a senha?</h2>
+        <form class="formulario" id="esqueceu-senha">
+            <div class="campos-container">
+            <label class="nome-campo">Digite o e-mail cadastrado:</label>
+            <input
+              type="text"
+              id="email-cadastrado"
+              placeholder="Digite seu e-mail"
+            />
+            <button type="submit" class="btn-entrar" id="btn-enviar">Enviar</button>
+          </form>
+        </div>
+        <p class="mensagem-enviada">Senha enviada com sucesso!</p>
+        <a href="./login.html" class="retornar-login">Retornar ao login</a>
+      </div>
+    </main>
+
+    <script type="module" src="./js/senha-nova.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/ui.js"></script>
+    <script type="module" src="./js/api.js"></script>
+  </body>
+</html>

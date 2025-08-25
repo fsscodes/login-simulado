@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgba(var(--background-container), 0.6);
+  padding: 6rem;
+  border-radius: 3rem;
+  color: var(--branco);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.container-links {
+  display: flex;
+}
+
+.formulario-titulo {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: var(--branco);
+  margin-bottom: 3rem;
+}
+
+.formulario input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border: 0.1rem solid var(--branco);
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  color: var(--cor-texto-secundario);
+}
+
+input:focus {
+  outline: 0;
+}
+
+.senha-container {
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.senha-container i {
+  cursor: pointer;
+  font-size: 50%;
+  position: absolute;
+  right: 5%;
+}
+
+.btn-entrar {
+  background-color: var(--azul-medio);
+  color: var(--branco);
+  padding: 1rem;
+  border: 0.1rem solid var(--azul-medio);
+  border-radius: 30px;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.btn-entrar:hover {
+  background-color: var(--azul-escuro);
+  transition: 0.3s;
+  border: 0.1rem solid var(--branco);
+}
+
+.btn-cadastro,
+.senha-nova,
+.retornar-login {
+  text-decoration: none;
+  color: var(--branco);
+  position: relative;
+  padding-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.btn-cadastro:visited,
+.senha-nova:visited .retornar-login:visited {
+  text-decoration: none;
+  color: var(--branco);
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.btn-cadastro::after,
+.senha-nova::after,
+.retornar-login::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--branco);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.btn-cadastro:hover::after,
+.senha-nova:hover::after,
+.retornar-login:hover:after {
+  transform: scaleX(1);
+}
+
+.mensagem-erro {
+  font-size: 1.4rem;
+}

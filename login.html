@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form class="formulario" id="formulario-login">
+          <h2 class="formulario-titulo">Bem vindo(a) de volta!</h2>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="input-form"
+            placeholder="Digite seu e-mail"
+          />
+          <div class="senha-container">
+            <input
+              type="password"
+              id="senha"
+              class="input-form senha"
+              placeholder="Digite sua senha"
+            />
+            <i class="visibilidade" id="visibilidade-senha"
+              ><img src="./assets/visibilidade-off.svg" alt="visivel"
+            /></i>
+          </div>
+          <p class="mensagem-erro"></p>
+          <button type="submit" class="btn-entrar" id="btn-entrar">
+            Entrar
+          </button>
+        </form>
+        <a href="./cadastro.html" class="btn-cadastro">Cadastre-se</a>
+        <a href="./senha-nova.html" class="senha-nova">Esqueceu a senha?</a>
+      </div>
+    </main>
+
+    <script type="module" src="./js/login.js"></script>
+    <script type="module" src="./js/ui.js"></script>
+    <script type="module" src="./js/api.js"></script>
+  </body>
+</html>

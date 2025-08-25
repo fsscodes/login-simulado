@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.6rem;
+  font-family: var(--font-principal);
+  color: var(--cor-texto-secundario);
+}
+
+.home-titulo {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.home-paragrafo {
+  font-size: 2rem;
+}
+
+.btn-sair {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  padding: 0.6rem 1.6rem;
+  background-color: var(--azul-profundo);
+  color: var(--branco);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.btn-sair:hover {
+  background-color: var(--azul-medio);
+  transition: 0.5s;
+}

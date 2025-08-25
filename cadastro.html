@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/cadastro.css" />
+    <title>Cadastre-se</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form class="formulario" id="formulario-cadastro">
+          <h2 class="formulario-titulo">Cadastre-se:</h2>
+          <div class="campos-container">
+            <label for="nome-campo" class="nome-campo">Primeiro nome:</label>
+            <input
+              type="text"
+              name="nome-cadastro"
+              id="nome-cadastro"
+              placeholder="Nome"
+            />
+            <small class="campo-invalido" id="nome-invalido"></small>
+            <label for="nome-campo" class="nome-campo">Último nome:</label>
+            <input
+              type="text"
+              name="sobrenome-cadastro"
+              id="sobrenome-cadastro"
+              placeholder="Último nome"
+            />
+            <small class="campo-invalido" id="sobrenome-invalido"></small>
+            <label for="data-nascimento" class="nome-campo"
+              >Data de nascimento:</label
+            >
+            <input type="date" name="data-nascimento" id="data-nascimento" />
+            <small class="campo-invalido" id="data-invalido"></small>
+            <label for="nome-campo" class="nome-campo">E-mail:</label>
+            <input
+              type="text"
+              name="email-cadastro"
+              id="email-cadastro"
+              placeholder="E-mail"
+            />
+            <small class="campo-invalido" id="email-invalido"></small>
+            <label for="nome-campo" class="nome-campo">Senha:</label>
+            <div class="senha-container">
+              <input
+                type="password"
+                id="senha"
+                class="input-form senha"
+                placeholder="Digite sua senha"
+              />
+              <i class="visibilidade"
+                ><img src="./assets/visibilidade-off.svg" alt="visivel"
+              /></i>
+            </div>
+            <small class="campo-invalido" id="senha-invalido"></small>
+            <label for="nome-campo" class="nome-campo"
+              >Confirme sua senha:</label
+            >
+            <div class="senha-container">
+              <input
+                type="password"
+                id="senha-confirmar"
+                class="input-form senha"
+                placeholder="Confirme sua senha"
+              />
+              <i class="visibilidade"
+                ><img src="./assets/visibilidade-off.svg" alt="visivel"
+              /></i>
+            </div>
+            <small class="campo-invalido" id="confirmar-senha-invalido"></small>
+          </div>
+          <button type="submit" class="btn-cadastrar" id="btn-cadastrar">
+            Cadastrar
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/cadastro.js"></script>
+    <script type="module" src="./js/login.js"></script>
+  </body>
+</html>

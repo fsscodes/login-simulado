@@ -1,0 +1,44 @@
+:root {
+  --azul-claro: #9cc7ff;
+  --azul-medio: #4f8dff;
+  --azul-profundo: #0e4da2;
+  --azul-escuro: #0b2e73;
+  --branco: #ffffff;
+  --cor-claro-principal: #f8f8f8;
+  --cor-texto-secundario: #6b6b6b;
+  --background-container: 1, 11, 11;
+  --font-principal: "Inter", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("/assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  font-family: var(--font-principal);
+}
+
+.swal2-popup {
+  font-size: 1.6rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* .swal2-icon {
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+} */
