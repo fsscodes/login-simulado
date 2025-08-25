@@ -6,7 +6,6 @@ formEsqueceuSenha.addEventListener("submit", async (e) => {
   e.preventDefault();
 
   const emailDigitado = document.getElementById("email-cadastrado").value;
-  const mensagem = document.querySelector(".mensagem-enviada");
 
   try {
     const cadastros = await api.cadastroExistente();

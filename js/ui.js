@@ -1,5 +1,3 @@
-import api from "./api.js";
-
 const ui = {
   mostrarOuOcultarSenha(input, img) {
     const ocultar = input.getAttribute("type");

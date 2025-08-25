@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       };
 
       await api.salvarCadastro(novoCadastro);
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     } catch (error) {
       console.error("Erro ao buscar cadastros:", error);
       Swal.fire({
