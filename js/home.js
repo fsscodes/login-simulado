@@ -3,7 +3,7 @@ import api from "./api.js";
 const btnLogout = document.querySelector(".btn-sair");
 btnLogout.addEventListener("click", () => {
   localStorage.removeItem("usuarioLogado");
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 });
 
 async function mostrarUsuarioHome() {
@@ -26,7 +26,7 @@ async function mostrarUsuarioHome() {
         ".home-titulo"
       ).textContent = `Bem-vindo(a), ${usuarioAtualizado.primeiro_nome}!`;
     } else {
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     }
   } catch (error) {
     console.error("Erro ao carregar usuário:", error);
