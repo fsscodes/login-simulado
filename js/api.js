@@ -1,9 +1,9 @@
-const URL_BASE = "https://login-simulado-1.onrender.com";
+const URL_BASE = "https://68acf7d2b996fea1c08b45e0.mockapi.io/cadastros/users";
 
 const api = {
   async salvarCadastro(cadastro) {
     try {
-      const response = await fetch(`${URL_BASE}/cadastros`, {
+      const response = await fetch(URL_BASE, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -19,7 +19,7 @@ const api = {
 
   async cadastroExistente() {
     try {
-      const response = await fetch(`${URL_BASE}/cadastros`);
+      const response = await fetch(URL_BASE);
       return await response.json();
     } catch (error) {
       throw error;
